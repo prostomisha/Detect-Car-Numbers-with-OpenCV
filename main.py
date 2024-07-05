@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 #pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
 #pytesseract.pytesseract.tesseract_cmd = r'C:\Users\USER\AppData\Local\Tesseract-OCR\tesseract.exe'
 #  detect car numbers using openCV
-img = cv2.imread('images/photo_5206648240462749931_y.jpg')
+img = cv2.imread('images/2.jpg')
 
 grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
